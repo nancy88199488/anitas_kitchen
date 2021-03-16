@@ -1,22 +1,44 @@
 body{
     width: 80%;
-    margin: 0 auto
-
-}
-#overlay{
-    height: 450px;
-    width: 100%;
-    position: relative;
+    margin: 
 }
 #landing{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    left: 0;
     transform:translate(-50%, -50%);
     text-align: center;
     color:white;
 }
 #logo h2{
-    line-height: 3.5px;
+    
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: white;
+    margin-left: 300px;
 
+}
+h2{
+    margin-top: -35%;
+    margin-right: -25%;
+}
+#div1{
+    text-align: left;
+    color: black;
+}
+#div2{
+    text-align: center;
+    background-image: url(./images/breakfast.jpg);
+    background-size: cover;
+    color: white;
+    
+
+}
+#div3{
+    text-align: center;
+    background-image: url(./images/lunch.jpg);
+    background-size: cover;
+    color :white
 }
