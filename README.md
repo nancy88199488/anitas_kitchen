@@ -21,4 +21,3 @@ To access this project on your local files, you can clone it using these steps
 ### Live Site
 View [live](https://nancy88199488.github.io/anitas-kitchen/)
 ### Licence
-This project is under the  [MIT](LICENSE) licence
