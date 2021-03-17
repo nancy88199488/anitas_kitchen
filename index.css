@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     width: 80%;
     margin: 0 auto;
@@ -9,6 +14,22 @@ body{
     position: relative;
 
 }
+#inner1{
+    height:98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner2{
+    background: orangered;
+    color: white;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 #logo{
     position: absolute;
     top: 50%;
@@ -33,13 +54,9 @@ body{
     width: 30px;
     background-color: white;
     margin: 5px;
+}
 
 
-}
-#menu{
-    height: 150px;
-    
-}
 .landing{
     width: 100%;
     height: 100%;
@@ -92,19 +109,98 @@ body{
     float: left;
 }
 #fasts{
-    text-align: left;
-    width: -150px;
-    padding: 5px
+    display: flex;
+    width: 70%;
+    margin: 10% auto;
     
 }
-#menu2 {
-    text-align: center;
+#fast-food{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border:10px solid white;
+    box-shadow: 1px 1px 15px grey;
 
 }
-#happy customer,h3,p{
-    text-align: center;
+.inner-text{
+    margin-left: 80px;
 }
-#about menu,p{
+#drinks{
+    display: flex;
+    width: 70%;
+    margin:10% auto;
+}
+#drink{
+    text-align: right;
+    position: relative;
+    margin-right: 98px;
+}
+#view{
+    display: flex;
+    height: 100%;
+    border:10px solid white;
+    box-shadow: 1px 1px 15px grey;
+
+}
+#fastfood10{
+    background: url("./images/foodsBg\ \(1\).jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 680px;
+}
+#meal{
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#list{
+    width: 100%;
+    margin:0;
+}
+#list li{
+    text-align: center;
+    display:inline-block;
+    padding:2%;
+    list-style-type: none;
+    width: 25%;
+    border-right: 1px solid grey;
+
+}
+#food{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 90%;
+}
+#list li:first-child{
+    color: orangered;
+}
+#list li:not(:first-child){
+    background:lightgrey
+}
+#images{
+    background: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+#customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;height: 300px;
+}
+#menu2{
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 #mail{background-image: url(./images/subscribe\ \(1\).jpg);
@@ -112,8 +208,6 @@ body{
     height: 400px;
     width: 100%;
     color: white;
-
-
-
-
+    display: flex;
+    text-align: center;
 }
